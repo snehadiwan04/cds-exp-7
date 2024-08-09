@@ -172,7 +172,7 @@ int main() {
         cout<<a2[l];
     }
 }
-
+```
 
 ### 4. *Search elements in Array* -
 
@@ -205,6 +205,7 @@ int main() {
         cout<<"Element is present: "<<count<<" times";
     }
 }
+
 ```
 
 ### 5. *Sum and Average of Array* -
@@ -328,7 +329,7 @@ int main()
 ```
 
 ### 4. *Palindrome Checking In String*
-A palindrome is a string that reads the same forward and backward, ignoring spaces, punctuation, and capitalization.
+
 ```
 // Sneha Diwan
 // 23070123126
