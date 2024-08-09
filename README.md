@@ -1,7 +1,7 @@
 # Experiment 7
 
 ## Aim -
-To study and implement c++ arrays and strings
+To study and implement C++ arrays and strings
 
 ## Apparatus -
 Online compiler (programiz)
@@ -29,17 +29,17 @@ Specifies the type of the elements and the number of elements.To declare an arra
 Arrays can be initialized element by element or using a single statement. Provides initial values to the elements of the array. The number of values in {} should not exceed array_size.
 
       int arr[5] = {1000, 2, 3, 17, 50};
-- The number of values between braces { } cannot be larger than the number of elements that we declare for the array between square brackets [ ]. 
+- The number of values between braces { } cannot be larger than the number of elements we declare for the array between square brackets [ ]. 
 
-### *key point about initializating an array* :
-- The number of elements in the initializer list cannot exceed the size of the array.
+### *key point about initializing an array* :
+- The number of elements in the initializer list cannot exceed the array size.
 - If you initialize an array without specifying the size, C++ will automatically determine the size based on the number of elements in the initializer list
 
 ## Accessing Array Elements:
-An element can be accessed by indexing the array name. This is done by placing the index of the element within square brackets after the name of the array.
+An element can be accessed by indexing the array name. This is done by placing the index of the element within square brackets after the array name.
   
        int num = arr[9];
-- Above statement accesses the 10th element of the array
+- The above statement accesses the 10th element of the array
 
 ### *key point about accessing array elements* :
 - Array indices start from 0. Therefore, the first element of the array has an index of 0, the second element has an index of 1, and so on.
@@ -49,7 +49,7 @@ An element can be accessed by indexing the array name. This is done by placing t
 
 - *Definition* : An array is a variable that can store multiple values of the same type.
 
-- *Use of Arrays* : Regular variables (e.g., v1, v2, v3) are manageable for a few objects, but arrays are needed for a larger number of instances.
+- *Use of Arrays* : Regular variables (e.g., v1, v2, v3) are manageable for a few objects, but arrays are needed for  a large number of instances.
 
 - *Indexing* : Array indexes start at 0, with the first item at index x[0].
 
@@ -337,40 +337,23 @@ int main()
 ### 4. *Palindrome Checking In String*
 A palindrome is a string that reads the same forward and backward, ignoring spaces, punctuation, and capitalization.
 ```
-//sneha diwan
-//entc B2
-//23070123126
-//experiment 7
-#include<iostream>
-#include<string>
-using namespace std;
-int main()
-{
-    string a;
-    cout<<"enter a string: ";
-    cin>>a;
-    int n=a.length(),i,flag=0;
-    for(i=0;i<a.length();i++)
-    {
-        if(a[i]==a[n-1])
-        {
-            flag=1;
-        }
-        n--;
-    }
-    if(flag==1)
-    {
-        cout<<a<<" is palindrome";
-    }
-    else
-    {
-        cout<<a<<" is not palindrome";
-    }
-}
+
+  
 ```
 
 ## Output -
 ### For arrays
+### 1.
+![Screenshot 2024-08-06 224540](https://github.com/user-attachments/assets/0277beb2-a7c2-41ec-a103-3cdaa144c77c)
+### 2.
+![Screenshot 2024-08-06 225404](https://github.com/user-attachments/assets/8b63592e-21d9-436a-805c-3971631e04b6)
+### 3.
+![Screenshot 2024-08-06 225814](https://github.com/user-attachments/assets/a8d59670-bdcd-4641-84b7-d39e78b15fd6)
+### 4.
+![WhatsApp Image 2024-08-07 at 00 02 47](https://github.com/user-attachments/assets/98c82c4d-a3ab-4087-bb2b-1c603fed1984)
+### 5.
+![WhatsApp Image 2024-08-07 at 00 03 01](https://github.com/user-attachments/assets/2ccd8705-213a-427a-8943-b45afea1fcca)
+
 
 
 ### For Strings
