@@ -8,7 +8,7 @@ Online compiler (programiz)
 
 ## Theory -
 
-### *Array* :
+ ### *Array* :
 An array is a fixed-size sequential collection of elements of the same type stored in contiguous memory locations. 
 The lowest address corresponds to the first element, and the highest address corresponds to the last element. Array indices start at 0.
 
@@ -62,6 +62,21 @@ An element can be accessed by indexing the array name. This is done by placing t
 ## String:
 A string is a sequence of characters used as an object of the class. The string class stores the characters as a sequence of bytes with the functionality of allowing access to the single-byte 
 character. A string is different from an array of characters.
+
+## Comparison Table between arrays and strings 
+
+| Feature           | Array                                           | String                                       |
+|-------------------|-------------------------------------------------|----------------------------------------------|
+| *Definition*    | A collection of elements of the same type stored in contiguous memory locations. | Sequences of characters used to represent text. Designed for textual data. |
+| *Size*          |Size can be fixed or dynamic based on the language (e.g., static in C, dynamic in Python).         | Size is dynamic and adjusts with the length of the text. |
+| *Mutability*    | Usually mutable; elements can be changed after the array is created.| Generally immutable; modifying a string creates a new one rather than altering the original. |
+| *Access*        | Accessed via indices.                          | Characters accessed via indices; includes built-in methods for manipulation. |
+| *Operations*    | Support various operations like sorting, searching, and element manipulation.  |Support operations like concatenation, substring extraction, and text formatting.|
+| *Memory Allocation* |Typically allocated with a fixed size and contiguous memory.|Memory allocation can be variable and managed dynamically based on string length and encoding. |
+| *Indexing* | Elements are accessed via numerical indices (e.g., arr[0]). | Characters are accessed via numerical indices (e.g., str[0]). |
+| *Data Type* | Can hold multiple data types depending on the language (e.g., integers, floats, objects). |Specifically hold text data (characters).|
+| *Use Cases* | Used for storing and processing collections of related data (e.g., lists of numbers, objects). |used for handling and manipulating textual data(e.g., user imput, file content|
+
 
 ## Code -
 ### For arrays
@@ -359,8 +374,18 @@ A palindrome is a string that reads the same forward and backward, ignoring spac
 ### For Strings
 
 
+### 1.
+![Screenshot 2024-08-09 093928](https://github.com/user-attachments/assets/45d74d91-b49d-4074-a340-7188bb70b101)
+### 2.
+![Screenshot 2024-08-09 094052](https://github.com/user-attachments/assets/0aed85f0-f7d6-4598-a10a-ad5a2d688e45)
+### 3.
+![Screenshot 2024-08-09 094400](https://github.com/user-attachments/assets/9db1548b-5e42-49d2-9c5b-c725ed6a9285)
+### 4.
+![Screenshot 2024-08-09 102928](https://github.com/user-attachments/assets/a7067f12-7439-48f2-a74b-51b81adc024f)
+![Screenshot 2024-08-09 103116](https://github.com/user-attachments/assets/67a72f4d-ea46-4251-9b7b-d9a391b3a89b)
+
 ## Conclusion -
 Arrays are a fundamental data structure in programming, used to store a collection of elements of the same type in contiguous memory locations.
 Arrays provide efficient storage and access for a fixed number of elements but are limited in flexibility compared to dynamic data structures.
 
-`string` class allows you to handle text easily, using double quotes for initialization and the `+` operator for concatenation. You can access individual characters, check the length with `length()`, and extract parts of the string using `substr()`. Additionally, you can compare strings and read user input with `getline()`, making string manipulation straightforward.
+The `string` class allows you to handle text easily, using double quotes for initialization and the `+` operator for concatenation. You can access individual characters, check the length with `length()`, and extract parts of the string using `substr()`. Additionally, you can compare strings and read user input with `getline()`, making string manipulation straightforward.
