@@ -81,45 +81,36 @@ character. A string is different from an array of characters.
 ## Code -
 ### For arrays
 ### 1. *Array declarations* -
-To declare an array, specify the type of elements and the number of elements required. 
+
 ```
-//sneha diwan
-//entc B2
-//23070123126
-//experiment 7
 #include <iostream>
 using namespace std;
-int main()
-{
-    int array1[2] = {1, 2}; 
-    int array2[2] = {2, 4}; 
-    int array3[2] = {1, 3};
 
-    // Printing array1
-    for (int i = 0; i < 2; i++) 
-    { 
-        cout << array1[i] << " ";
-    }
-    cout << endl; 
+int main() {
+    int array1[5] = {19, 10, 8, 17, 9}; 
+    int array2[] = {19, 10, 8, 17, 9}; 
+    int array3[5] = {19, 10, 8}; 
 
-    // Calling out array1[1]
-    cout << "array1[1]: " << array1[1] << endl;
 
-    // Printing array2
-    for (int value : array2) 
-    { 
-        cout << value << " "; 
-    }
-    cout << endl;
+  cout << "\n Old Method: ";
+  for (int i = 0; i < 5; ++i) {
+    cout << array1[i] << "  ";
+  }
+  cout << endl;
 
-    return 0;
+
+  cout << "\n New Method: ";
+  for (int j : array1) {
+    cout << j << "  ";
+  }
+
+   return 0;
 }
 
 ```
 
 ### 2. *Input output array* -
-In C++, prompt the user for the array size and declare the array.
-Use a loop to input elements into the array and another loop to output them. 
+
 ```
 //sneha diwan
 //entc B2
@@ -142,9 +133,7 @@ int main()
 ```
 
 ### 3. *Reversing array* -
-This function takes an array and its size as parameters
-It uses two pointers, start and end, initialized to the beginning and end of the array, respectively.
-It swaps the elements at these positions and moves the pointers towards the center until they meet.
+
 ```
 //sneha diwan
 //entc B2
@@ -185,11 +174,7 @@ int main() {
 ```
 
 ### 4. *Search elements in Array* -
-*Input Array*: Collect array size and elements from the user.
 
-*Search Element*: Use a loop to check if the target element exists in the array.
-
-*Output Result*: Print the index if found; otherwise, indicate that the element was not found.
  ```
 //sneha diwan
 //entc B2
@@ -222,11 +207,7 @@ int main() {
 ```
 
 ### 5. *Sum and Average of Array* -
-*Calculate Sum*: Add each element to a running total.
 
-*Calculate Average*: Divide the sum by the number of elements.
-
-*Output*: Print the sum and average of the array elements.
 ```
 //sneha diwan
 //entc B2
@@ -251,11 +232,7 @@ cout<<"Average = "<<avg;
 ```
 
 ### 6. *Max and Min element of Array* -
-*Initialize*: Set the first element as both the initial maximum and minimum.
 
-*Iterate*: Compare each element to update the maximum and minimum values.
-
-*Output*: Print the maximum and minimum values found.
 ```
 //sneha diwan
 //entc B2
@@ -352,6 +329,37 @@ int main()
 ### 4. *Palindrome Checking In String*
 A palindrome is a string that reads the same forward and backward, ignoring spaces, punctuation, and capitalization.
 ```
+// Sneha Diwan
+// 23070123126
+// experiment 7 j
+
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+    string a;
+    cout<<"enter a string: ";
+    cin>>a;
+    int n=a.length(),i,flag=0;
+    for(i=0;i<a.length();i++)
+    {
+        if(a[i]==a[n-1])
+        {
+            flag=1;
+        }
+        n--;
+    }
+    if(flag==1)
+    {
+        cout<<a<<" is palindrome";
+    }
+    else
+    {
+        cout<<a<<" is not palindrome";
+    }
+}
+
 
   
 ```
