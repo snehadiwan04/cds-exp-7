@@ -140,10 +140,6 @@ int main() {
 ### 3. *Reversing array* -
 
 ```
-//sneha diwan
-//entc B2
-//23070123126
-//experiment 7
 #include<iostream>
 using namespace std;
 
@@ -176,7 +172,7 @@ int main() {
         cout<<a2[l];
     }
 }
-```
+
 
 ### 4. *Search elements in Array* -
 
