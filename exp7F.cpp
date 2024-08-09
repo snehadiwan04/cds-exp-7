@@ -1,7 +1,7 @@
-//subham
+//sneha diwan
 //entc B2
-//23070123132
-//experiment 7
+//23070123126
+//experiment 7f
 #include<iostream>
 using namespace std;
 int main() {
