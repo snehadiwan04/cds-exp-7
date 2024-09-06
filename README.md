@@ -4,7 +4,7 @@
 To study and implement C++ arrays and strings
 
 ## Apparatus -
-Online compiler (programiz)
+VS code
 
 ## Theory -
 
